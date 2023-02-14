@@ -1,10 +1,8 @@
 # ifreference
 
 ## website link
-- 
+- [https://ifreference.vercel.app/](https://ifreference.vercel.app/)
 
-- HTML files for Sec 2 Web-Publishing (heroes.html to shape.html)
-- Some files are not complete; only backbone
 
 ## how to use:
 1. You don't use this
@@ -25,3 +23,7 @@ Pls give us a star if this is useful
 
 ## license
 - MIT
+
+## note
+- HTML files for Web-Publishing
+- Some files are not complete; only backbone
