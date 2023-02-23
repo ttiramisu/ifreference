@@ -1,91 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="The JavaScript assignment reference page" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta content="The JavaScript assignment reference page">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>JavaScript</title>
 
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/style.css">
-  <title>JavaScript</title>
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+      }
 
-  <style>
-    body,
-    html {
-      height: 100%;
-      margin: 0;
-    }
+      .bgimg {
+        background-image: url('/w3images/forestbridge.jpg');
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        color: #333;
+        font-size: 25px;
+      }
 
-    .bgimg {
-      background-image: url('/w3images/forestbridge.jpg');
-      height: 100%;
-      background-position: center;
-      background-size: cover;
-      position: relative;
-      color: #333;
-      font-size: 25px;
-    }
+      .topleft {
+        position: absolute;
+        top: 0;
+        left: 16px;
+      }
 
-    .topleft {
-      position: absolute;
-      top: 0;
-      left: 16px;
-    }
+      .bottomleft {
+        position: absolute;
+        bottom: 0;
+        left: 16px;
+      }
 
-    .bottomleft {
-      position: absolute;
-      bottom: 0;
-      left: 16px;
-    }
+      .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
 
-    .middle {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-    }
+      hr {
+        margin: auto;
+        width: 40%;
+      }
+    </style>
+  </head>
 
-    hr {
-      margin: auto;
-      width: 40%;
-    }
-  </style>
-
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Home</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="html.html">HTML and CSS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="javascript.html">JavaScript</a>
-          </li>
-          <li class="nav-item">
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="html.html">HTML and CSS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript.html">JavaScript</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="coming soon.html">Coming soon</a>
-          </li>
-        </ul>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  <div class="bgimg">
-    <div class="middle">
-      <h1>COMING SOON</h1>
-      <hr>
-    </div>
-  </div>
-  <script src="js/bootstrap.min.js" async></script>
-</body>
-
+    </nav>
+    <h1>HTML AND CSS</h1>
+    <br />
+    <div class="list-group list">
+      <button type="button" class="list-group-item list-group-item-action"
+        onClick="window.location.href='https://github.com/salted-caramel/improved-octo-barnacle/tree/main/show-image';">Show_img</button>
+        <button type="button" class="list-group-item list-group-item-action"
+        onClick="window.location.href='https://github.com/salted-caramel/improved-octo-barnacle/blob/main/calc/calc.html';">Calc</button>
+    </div>    
+    <script src="js/bootstrap.min.js" async></script>
+  </body>
 </html>
