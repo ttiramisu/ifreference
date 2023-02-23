@@ -8738,6 +8738,12 @@ fieldset:disabled .btn {
   align-self: stretch !important
 }
 
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .order-first {
   order: -1 !important
 }
