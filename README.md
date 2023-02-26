@@ -1,7 +1,7 @@
 # ifreference
 
 ## website link
-- [https://ifreference.vercel.app/](https://ifreference.vercel.app/)
+- [https://ifreference.netlify.app/](https://ifreference.netlify.app/)
 
 
 ## how to use:
