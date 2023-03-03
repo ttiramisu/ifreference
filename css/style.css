@@ -11,3 +11,7 @@ main{
   max-width: 500px;
   margin: 0 auto;
 }
+
+.disclaimer {
+  font-size: 30px;
+}
